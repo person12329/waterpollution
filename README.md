@@ -31,3 +31,8 @@ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output
 
 # open VS code to see the image output
 
+
+
+https://github.com/user-attachments/assets/5e9b806d-b2b8-4894-8193-cf110b922b78
+
+
