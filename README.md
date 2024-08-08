@@ -20,9 +20,14 @@ The algorithm works by running all the pictures in it's collection of images to 
   # Make sure that you are out of the docker
   Use [ls models/water_plastic_pollution_detector/] to make sure that the model is on the nano. You should see a file called resnet18.onnx.
   # Set the NET and DATASET variables
+  
 [NET=models/water_plastic_pollution_detector]
+
 [DATASET=data/water_plastic_pollution_detector]
+
 Run this command to see how it operates on an image from the clean_water folder.
+
 imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/clean_water4.jpg clean_water.jpg
+
 # open VS code to see the image output
 
